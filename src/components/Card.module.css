@@ -1,0 +1,149 @@
+.card{
+    background-color: #1B1D1F;
+    border-radius: 10px;
+    color: #FEF7EE;
+    text-align: center;
+    width: 80%;
+    margin: 40px 150px;
+    padding: 20px;
+    position: absolute;
+    top: 80%; /* Center vertically */
+    left: 45%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* height: 800px; */
+}
+
+.intro{
+    height: 30%;
+}
+
+
+.intro p{
+    color: #6F757C;
+    font-size: 22px;
+    text-align: center;
+    width: 30%;
+    margin: 0 550px;
+
+}
+
+.navigationBtns button{
+    
+    margin: 20px;
+    border: none;
+    outline: none;
+    width: 130px;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #1B1D1F;
+    color: #FEF7EE;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    width: 60%;
+    margin: 0 200px;
+}
+
+
+.menuItem{
+    margin: 10px ;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #fff; */
+    
+}
+
+.menuItem .coffeeType{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    /* padding: 5px; */
+}
+
+.popularText {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F6C768;
+    color: #111315;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.nameAndPricing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+   
+}
+
+.nameAndPricing p{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ratings p{
+    margin: 5px;
+
+}
+
+.navigationBtns .active{
+    background-color: #6F757C;
+    font-weight: bolder;
+   
+}
+
+.label{
+    color: #ED735D;
+    padding-left: 60px;
+    opacity: 0.75;
+
+}
+
+.vote{
+    color: #6F757C;
+    font-weight: bolder;
+}
+
+.pricing{
+    background-color:#BEE3CC ;
+    color: #111315;
+    width: 60px;
+    height: auto;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bolder;
+    /* font-size: 12px; */
+}
+
+.name,.ratings{
+    font-weight: bolder;
+}
+
+

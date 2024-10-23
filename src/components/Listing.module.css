@@ -1,0 +1,21 @@
+.backGround{
+    background-color: #111315;
+    width: 100%;
+    height: 1100px;
+      
+}
+
+.heroImg{
+    width: 100%;
+    height: 300px;
+}
+
+.heroImg img{
+    width: 100%;
+    display: block;
+}
+
+.main{
+    position: relative;
+    z-index: 1;
+}
